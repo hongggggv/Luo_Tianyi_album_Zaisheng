@@ -1,0 +1,19 @@
+{
+  "required": true,
+  "package": "com.luotianyi.zaisheng.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "EndermanEntityInvoker",
+    "GrassColorsAccessor",
+    "LuoTianyiZaishengMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "client": [
+    "ItemRenderAccessor",
+    "MinecraftClientAccessor",
+    "ModelLoaderMixin",
+    "RenderLayersMixin"
+  ]
+}

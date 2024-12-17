@@ -1,0 +1,42 @@
+{
+  "music_disc.hudie": {
+    "sounds": [
+      "luotianyizaisheng:hudie"
+    ]
+  },
+  "music_disc.zaishengrecallcn": {
+    "sounds": [
+      "luotianyizaisheng:zaishengrecallcn"
+    ]
+  },
+  "music_disc.zuiwanmeidexiatian": {
+    "sounds": [
+      "luotianyizaisheng:zuiwanmeidexiatian"
+    ]
+  },
+  "music_disc.sanyueyu": {
+    "sounds": [
+      "luotianyizaisheng:sanyueyu"
+    ]
+  },
+  "music_disc.zaishengrecalljp": {
+    "sounds": [
+      "luotianyizaisheng:zaishengrecalljp"
+    ]
+  },
+  "music_disc.aloud": {
+    "sounds": [
+      "luotianyizaisheng:aloud"
+    ]
+  },
+  "music_disc.chunripingxingxian": {
+    "sounds": [
+      "luotianyizaisheng:chunripingxingxian"
+    ]
+  },
+  "music_disc.waiwai": {
+    "sounds": [
+      "luotianyizaisheng:waiwai"
+    ]
+  }
+}
