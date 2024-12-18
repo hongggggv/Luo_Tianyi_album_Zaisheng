@@ -33,6 +33,7 @@ public class ModItemGroups {
                         entries.add(ModItems.ZAISHENGRECALLCN_MUSIC_DISC);
                         entries.add(ModItems.ZAISHENGRECALLJP_MUSIC_DISC);
                         entries.add(ModItems.HUDIE_MUSIC_DISC);
+                        entries.add(ModItems.XUBABAI_MUSIC_DISC);
                         entries.add(ModItems.WAIWAI_MUSIC_DISC);
                         entries.add(ModItems.SANYUEYU_MUSIC_DISC);
                         entries.add(ModItems.ALOUD_MUSIC_DISC);

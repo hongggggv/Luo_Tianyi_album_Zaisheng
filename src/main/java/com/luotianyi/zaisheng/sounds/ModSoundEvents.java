@@ -25,6 +25,7 @@ public class ModSoundEvents {
     public static final RegistryEntry.Reference<SoundEvent> MUSIC_DISC_ALOUD = registerReference("music_disc.aloud");
     public static final RegistryEntry.Reference<SoundEvent> MUSIC_DISC_CHUNRIPINGXINGXIAN = registerReference("music_disc.chunripingxingxian");
     public static final RegistryEntry.Reference<SoundEvent> MUSIC_DISC_WAIWAI = registerReference("music_disc.waiwai");
+    public static final RegistryEntry.Reference<SoundEvent> MUSIC_DISC_XUBABAI = registerReference("music_disc.xubabai");
     // 由原版改编的注册方法
     // 原版中有多种声音事件，这个注册方法是最普通的
     // 像特定生物群系的声音事件，是由另外的方法注册的（山羊角发出的声音也是单独的）

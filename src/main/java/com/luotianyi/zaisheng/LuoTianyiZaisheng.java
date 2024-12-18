@@ -3,7 +3,6 @@ package com.luotianyi.zaisheng;
 import com.luotianyi.zaisheng.item.ModItemGroups;
 import com.luotianyi.zaisheng.item.ModItems;
 import com.luotianyi.zaisheng.sounds.ModSoundEvents;
-import com.luotianyi.zaisheng.tags.ModBlockTags;
 import com.luotianyi.zaisheng.tags.ModItemTags;
 import net.fabricmc.api.ModInitializer;
 import org.slf4j.Logger;
@@ -23,7 +22,6 @@ public class LuoTianyiZaisheng implements ModInitializer {
 		// Proceed with mild caution.
 		ModItems.registerModItems();
 		ModItemGroups.registerModItemGroups();
-		ModBlockTags.registerModBlockTags();
 		ModItemTags.registerModItemTags();
 		ModSoundEvents.registerSounds();
 		LOGGER.info("成功載入模組！盡情地享受我的歌聲吧！天依會一直陪伴著你喲！華風夏韻，洛水天依！");

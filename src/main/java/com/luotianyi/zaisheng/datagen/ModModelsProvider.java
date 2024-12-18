@@ -43,5 +43,6 @@ public class ModModelsProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.ALOUD_MUSIC_DISC, Models.TEMPLATE_MUSIC_DISC);
         itemModelGenerator.register(ModItems.CHUNRIPINGXINGXIAN_MUSIC_DISC, Models.TEMPLATE_MUSIC_DISC);
         itemModelGenerator.register(ModItems.WAIWAI_MUSIC_DISC, Models.TEMPLATE_MUSIC_DISC);
+        itemModelGenerator.register(ModItems.XUBABAI_MUSIC_DISC, Models.TEMPLATE_MUSIC_DISC);
     }
 }

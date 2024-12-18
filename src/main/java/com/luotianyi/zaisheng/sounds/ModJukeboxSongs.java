@@ -20,6 +20,7 @@ public interface ModJukeboxSongs {
     RegistryKey<JukeboxSong> ALOUD = of("aloud");
     RegistryKey<JukeboxSong> CHUNRIPINGXINGXIAN = of("chunripingxingxian");
     RegistryKey<JukeboxSong> WAIWAI = of("waiwai");
+    RegistryKey<JukeboxSong> XUBABAI = of("xubabai");
     private static RegistryKey<JukeboxSong> of(String id) {
         return RegistryKey.of(RegistryKeys.JUKEBOX_SONG, Identifier.of(LuoTianyiZaisheng.MOD_ID, id));
     }
@@ -35,6 +36,7 @@ public interface ModJukeboxSongs {
         register(registry, ALOUD, ModSoundEvents.MUSIC_DISC_ALOUD, 185, 10);
         register(registry, CHUNRIPINGXINGXIAN, ModSoundEvents.MUSIC_DISC_CHUNRIPINGXINGXIAN, 238, 11);
         register(registry, WAIWAI, ModSoundEvents.MUSIC_DISC_WAIWAI, 273, 5);
+        register(registry, XUBABAI, ModSoundEvents.MUSIC_DISC_XUBABAI, 190, 3);
         LuoTianyiZaisheng.LOGGER.info("歌曲已載入！一起和我共鳴吧！");
     }
 }

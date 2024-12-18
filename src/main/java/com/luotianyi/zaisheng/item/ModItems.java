@@ -26,6 +26,8 @@ public class ModItems {
             new Item(new Item.Settings().maxCount(99).rarity(Rarity.RARE).jukeboxPlayable(ModJukeboxSongs.CHUNRIPINGXINGXIAN)));
     public static final Item WAIWAI_MUSIC_DISC = registerItems("waiwai_music_disc",
             new Item(new Item.Settings().maxCount(99).rarity(Rarity.RARE).jukeboxPlayable(ModJukeboxSongs.WAIWAI)));
+    public static final Item XUBABAI_MUSIC_DISC = registerItems("xubabai_music_disc",
+            new Item(new Item.Settings().maxCount(99).rarity(Rarity.RARE).jukeboxPlayable(ModJukeboxSongs.XUBABAI)));
     // 注册方法，由原版改编（一堆方法整合）
     private static Item registerItems(String name, Item item) {
         // 由原版整合的方法
